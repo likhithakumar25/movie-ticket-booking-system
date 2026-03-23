@@ -3,7 +3,7 @@
 # 🔒 Sensitive files
 # ==============================
 config.php
-
+config_api.php
 # ==============================
 # 🗄 Database files / folders
 # ==============================

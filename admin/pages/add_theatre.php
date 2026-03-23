@@ -1,4 +1,7 @@
 <?php
+include('../../config_api.php');
+?>
+<?php
 include('header.php');
 ?>
 <link rel="stylesheet" href="../../validation/dist/css/bootstrapValidator.css"/>
@@ -139,8 +142,9 @@ include('footer.php');
       }
 
     </script>
-    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDfO40iueprTDv0WCf0BCIlbj56JO-HylA&libraries=places&callback=initAutocomplete"
-            async defer></script>
+    <!-- <script src="https://maps.googleapis.com/maps/api/js?key=YOUR_API_KEY&libraries=places&callback=initAutocomplete"
+            async defer></script> -->
+            <script src="https://maps.googleapis.com/maps/api/js?key=<?php echo $google_api_key; ?>&libraries=places&callback=initAutocomplete" async defer></script>
             <script>
         <?php $frm->applyvalidations("form1");?>
     </script>
