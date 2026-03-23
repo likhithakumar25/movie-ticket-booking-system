@@ -1,0 +1,21 @@
+**Database Name: movietheatredb**
+
+**Admin Login Details**
+
+Username: admin
+Password: password
+
+
+**Theatre Login Details**-
+
+INOX-whitefield
+Username: THR760801
+Password: PWD649976 
+
+IMAX-jayanagar
+username: theatre1
+password: password
+
+AMEC
+username: theatre
+password: password

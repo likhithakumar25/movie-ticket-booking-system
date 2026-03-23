@@ -1,0 +1,33 @@
+a#hov:hover 
+{ COLOR: red;text-decoration:none; font-weight: bold; }
+a#hov{
+color:black;
+
+}
+.thumbnail{
+
+background-color:#F0F0F0;
+border: 2px solid #ddd !important;
+}
+#button{
+font-weight:normal;
+font-size:17px;
+text-decoration:none;
+color:white;
+}
+
+#button:hover {
+    background-color: rgb(128, 0, 0) !important;
+}
+#button:hover{
+color:white;
+}
+#img{
+opacity:100%;
+
+}
+#img:hover{
+opacity:95%;
+transition: transform .75s ease;
+transform: scale(1.05);
+}
